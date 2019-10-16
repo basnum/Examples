@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <!-- Example 1 -->
+         
+         <!-- Annotation Mohamed-->
+         <entry>
+            <form type="lemma">ALTERCAT. s.m.</form> ou <form type="variant">ALTERCATION. s.
+               f.</form> Debat, conte$tation entre deux per$onnes qui ont en- $emble de la
+            familiarité. Ils n’ont pas de querelle for- mée ; mais il y a toujours quelque petite
+            altercation en- tr’eux. Altercat e$t vieux ; mais altercation e$t un peu plus u$ité. Du
+            Cange dit que ce mot vient d’altercari,
+            qui$iiggnniiffiiooitit$$imimpplelemnesn'tesnetnretrtetneinrierne$ne$membbtele, alter-
+            catio, dialogue. </entry>
+         <!-- Annotation Geoffrey -->
+
+         <entry>
+            <form type="lemma">ALTERCAT. s.m. ou ALTERCATION. s. f.</form> Debat, conte$tation entre
+            deux per$onnes qui ont en- $emble de la familiarité. Ils n’ont pas de querelle for- mée
+            ; mais il y a toujours quelque petite altercation en- tr’eux. Altercat e$t vieux ; mais
+            altercation e$t un peu plus u$ité. Du Cange dit que ce mot vient d’altercari,
+            qui$iiggnniiffiiooitit$$imimpplelemnesn'tesnetnretrtetneinrierne$ne$membbtele, alter-
+            catio, dialogue. </entry>
+
+         <!-- Dictionary Segmentation - Level 1 -->
+
+         <!-- Dictionary Body Segmentation - Level 2 -->
+         <body>
+            <entry>..</entry>
+            <entry>..</entry>
+            <entry>..</entry>
+            <entry>..</entry>
+
+
+
+         </body>
+
+         <!-- Lexical Entry Level - Level 3 -->
+         <!-- TEI valid -->
+
+         <entry>
+            <form type="lemma">ALTHEA. $. f.</form>
+            <sense>Plante qu’on appelle autrement Guimauve</sense>. <xr>Voyez Guimauve</xr>
+         </entry>
+
+         <!-- Grobid valid annotation -->
+
+         <entry><lemma>ALTHEA. $. f.</lemma>
+            <sense>Plante qu’on appelle autrement Guimauve</sense>. <xr>Voyez Guimauve</xr></entry>
+      </body>
+      <!-- Form level - Level 4 -->
+      <!-- TEI valid - Annotation Geoffrey -->
+      <form type="lemma">
+         <orth>ALTERCAT</orth>. <gramGrp>s.m.</gramGrp>
+         <lbl>ou</lbl>
+         <orth>ALTERCATION</orth>. <gramGrp>s. f.</gramGrp>
+      </form>
+      <!-- TEI valid - Annotation Mohamed -->
+      <form type="lemma"><orth>ALTERCAT</orth>. <gramGrp>s.m.</gramGrp></form> ou <form
+         type="variant"><orth>ALTERCATION</orth>. <gramGrp>s. f.</gramGrp></form>
+      
+      
+      <!-- Second Example -->
+      <entry><form type="lemma">ALTERNATIF, ive. adj.</form> Qui $uccede l’un aprè’ autre. Une
+         charge alternative, un Office alernati qui s’exerce tour-à-tour. On a $upprimé les Officier
+         iennaux, quadriennaux, on a con$ervé les al- ternatifs. On dit de deux Officiers Generaux
+         d’armée qui $ervent chacun leur jour, qu’ils roulent, qu’ils ont un commandement
+         alternatif. Alternative. $. f. $e dit de </entry>
+      <!-- Form Level -->
+      <form><orth extent="full">ALTERNATIF</orth>, <orth extent="part">ive</orth>.
+            <gramGrp>adj</gramGrp>. </form>
+      
+      
+      <!-- Third Example -->
+      <entry><form type="lemma">ALTERNE</form>,<form type="inflected"> ée. adj</form>. en termes de
+         Bla$on, $e dit de la $ituation des quartiers, ou des figures, qui $e re- pondent en
+         alternative : comme, Dans l’écartelé le premier, quatriéme quartier $ont alternez, ils $ont
+         d’ordinaire de même nature ; pareillement le deux le troi$iéme. On dit de même du lo$engé,
+         fu$elé, échiqueté, des points équipollez, . Ce mot échiqueté, des points équipollez, . Ce
+         mos, qui $ignifie, qui vient tour-à- tou </entry>
+      <!-- Geoffrey's -->
+      <entry><form type="lemma">ALTERNE ée. adj</form>. <sense>en termes de Bla$on, $e dit de la
+            $ituation des quartiers, ou des figures, qui $e re- pondent en alternative : comme, Dans
+            l’écartelé le premier, quatriéme quartier $ont alternez, ils $ont d’ordinaire de même
+            nature ; pareillement le deux le troi$iéme. On dit de même du lo$engé, fu$elé,
+            échiqueté, des points équipollez, . Ce mot échiqueté, des points équipollez, . Ce mos,
+            qui $ignifie, qui vient tour-à- tou</sense>
+      </entry>
+      <!-- Form Level - Option 1-->
+      <form>
+         <orth>ALTERNE</orth>
+         <orth>ée</orth>. <gramGrp>adj</gramGrp>
+      </form>
+      <!-- Form Level - Option 2 - Form inside form-->
+      <form>
+         <form type="lemma">ALTERNE</form>
+         <form type="inflected">ée</form>. 
+         <gramGrp>adj</gramGrp>
+      </form>
+   </text>
+
+</TEI>
