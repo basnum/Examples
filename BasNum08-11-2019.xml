@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Title</title>
+         </titleStmt>
+         <publicationStmt>
+            <p>Publication Information</p>
+         </publicationStmt>
+         <sourceDesc>
+            <p>Information about the source</p>
+         </sourceDesc>
+      </fileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <p>Some text here.</p>
+         
+         <!-- Final TEI Output -->
+         <entry xml:id="Orenge">
+            <form type="lemma">ORENGE </form>
+            <lbl>ou plutôt</lbl>
+            <form type="variant">ORANGE</form>
+            <pc>,</pc>
+            <usg> ainsi que l’écrit l’Academie.</usg>
+            <gramGrp>
+               <pos>subst.</pos>
+               <gen>fem.</gen>
+            </gramGrp>
+         </entry>
+         
+       
+         <!-- Annotation Grobid lexical entry -->
+         <entry xml:id="Orenge">
+            <lemma>ORENGE </lemma>
+            <lbl>ou plutôt</lbl>
+            <variant>ORANGE</variant>
+            <pc>,</pc>
+            <usg> ainsi que l’écrit l’Academie.</usg>
+            <formGramGrp>subst. fem.</formGramGrp>
+         </entry>
+         
+         
+         <!-- Annotation Grobid Form -->     
+         <form>
+            <orth>ORENGE</orth>
+         </form>
+            
+          <form>
+               <orth>ORANGE</orth>
+          </form>
+            
+         
+         <!-- Annotation Grobid gramGrp -->          
+            <gramGrp>
+               <pos>subst.</pos>
+               <gen>fem.</gen>
+            </gramGrp>
+         
+         
+      </body>
+   </text>
+</TEI>
