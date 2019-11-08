@@ -19,49 +19,50 @@
    <text>
       <body>
          <p>Some text here.</p>
-         
+
          <!-- Final TEI Output -->
          <entry xml:id="Orenge">
             <form type="lemma">ORENGE </form>
-            <lbl>ou plutôt</lbl>
-            <form type="variant">ORANGE</form>
-            <pc>,</pc>
-            <usg> ainsi que l’écrit l’Academie.</usg>
+            <usg>ou plutôt <oRef>ORANGE</oRef> ainsi que l’écrit l’Academie.</usg>
             <gramGrp>
                <pos>subst.</pos>
                <gen>fem.</gen>
             </gramGrp>
          </entry>
-         
-       
-         <!-- Annotation Grobid lexical entry -->
+
+
+         <!-- Annotation Grobid lexical entry - Cas Orenge -->
          <entry xml:id="Orenge">
             <lemma>ORENGE </lemma>
-            <lbl>ou plutôt</lbl>
-            <variant>ORANGE</variant>
-            <pc>,</pc>
-            <usg> ainsi que l’écrit l’Academie.</usg>
+            <usg>ou plutôt ORANGE ainsi que l’écrit l’Academie</usg>. 
             <formGramGrp>subst. fem.</formGramGrp>
          </entry>
-         
-         
-         <!-- Annotation Grobid Form -->     
+
+
+         <!-- Annotation Grobid Form - Cas Orenge  -->
          <form>
             <orth>ORENGE</orth>
          </form>
-            
-          <form>
-               <orth>ORANGE</orth>
-          </form>
-            
-         
-         <!-- Annotation Grobid gramGrp -->          
-            <gramGrp>
-               <pos>subst.</pos>
-               <gen>fem.</gen>
-            </gramGrp>
-         
-         
+
+
+         <!-- Annotation Grobid gramGrp - Cas Orenge  -->
+         <gramGrp>
+            <pos>subst.</pos>
+            <gen>fem.</gen>
+         </gramGrp>
+
+         <!-- Annotation Grobid usg - Cas Orenge  -->
+         <!-- dictScrap sera enleve dans l'output final -->
+         <usg>
+            <dictScrap>ou plutôt</dictScrap>
+            <oRef>ORANGE</oRef>
+            <dictScrap>ainsi que l’écrit l’Academie</dictScrap>. 
+         </usg>
+
+
+
+         </entry>
+
       </body>
    </text>
 </TEI>
